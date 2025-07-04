@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GameBoostX | Home</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>GameBoostX</h1>
+    <nav>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#games">Games</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Boost Your Game. Instantly.</h2>
+    <p>Top-tier gaming services & elite accounts for popular competitive games.</p>
+  </section>
+
+  <section id="services">
+    <h3>Our Services</h3>
+    <div class="service">
+      <h4>🎯 Rank Boosting</h4>
+      <p>Get your dream rank fast and securely in any game.</p>
+    </div>
+    <div class="service">
+      <h4>🛒 Account Selling</h4>
+      <p>Verified high-level accounts with premium skins and rank.</p>
+    </div>
+    <div class="service">
+      <h4>👨‍🏫 Coaching</h4>
+      <p>1-on-1 coaching sessions with experienced players.</p>
+    </div>
+  </section>
+
+  <section id="games">
+    <h3>Supported Games</h3>
+    <div class="games-grid">
+      <a href="valorant.html" class="game-tile">🎯 Valorant</a>
+      <a href="warcraft.html" class="game-tile">⚔️ Warcraft</a>
+      <a href="apex.html" class="game-tile">🔫 Apex Legends</a>
+      <a href="league.html" class="game-tile">🧠 League of Legends</a>
+      <a href="cs2.html" class="game-tile">💣 CS2</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h3>Contact Me</h3>
+    <p>📧 Gmail: <a href="mailto:ii320339@gmail.com">ii320339@gmail.com</a></p>
+    <p>💬 Discord: <strong>hima692001</strong></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 GameBoostX. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0e0e0e;
+  color: #fff;
+}
+
+header {
+  background: #1a1a1a;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  color: #00ffcc;
+  font-size: 1.8em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 4em 2em;
+  background: linear-gradient(145deg, #1a1a1a, #292929);
+}
+
+section {
+  padding: 3em 2em;
+}
+
+h3 {
+  border-bottom: 2px solid #00ffcc;
+  padding-bottom: 0.5em;
+  margin-bottom: 1em;
+}
+
+/* Services */
+.service {
+  background: #1f1f1f;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-left: 4px solid #00ffcc;
+}
+
+/* Game grid */
+.games-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1em;
+}
+
+.game-tile {
+  background: #1f1f1f;
+  padding: 1.5em;
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid #00ffcc;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.game-tile:hover {
+  background: #00ffcc;
+  color: #000;
+}
+
+/* Account card */
+.account-card {
+  background: #1a1a1a;
+  padding: 1em;
+  margin-bottom: 1.5em;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+
+.account-card button {
+  background: #00ffcc;
+  border: none;
+  padding: 0.5em 1em;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 2em;
+  background: #1a1a1a;
+  font-size: 0.9em;
+}
+function buyNow(item) {
+  alert(`You clicked to buy: ${item}\nWe'll contact you on Discord or Gmail.`);
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Valorant | GameBoostX</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1><a href="index.html" style="text-decoration:none; color:#00ffcc;">GameBoostX</a></h1>
+    <nav>
+      <ul>
+        <li><a href="index.html#games">Games</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>🎯 Valorant Services</h2>
+    <p>Boosts, coaching, and elite accounts for Valorant.</p>
+  </section>
+
+  <section>
+    <h3>Services</h3>
+    <div class="account-card">
+      <h4>Rank Boost (Iron to Diamond)</h4>
+      <p>Price: $10 - $60</p>
+      <button onclick="buyNow('Valorant Rank Boost')">Buy Now</button>
+    </div>
+    <div class="account-card">
+      <h4>Radiant Coaching (1 Hour)</h4>
+      <p>Price: $25</p>
+      <button onclick="buyNow('Valorant Coaching')">Buy Now</button>
+    </div>
+  </section>
+
+  <section>
+    <h3>Accounts</h3>
+    <div class="account-card">
+      <h4>Diamond 2 | Prime & Reaver Skins</h4>
+      <p>Price: $55</p>
+      <button onclick="buyNow('Valorant Diamond Account')">Buy Now</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 GameBoostX | Valorant</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<a href="https://www.paypal.me/YOURUSERNAME/55" target="_blank" class="paypal-button">Buy Now</a>
+.paypal-button {
+  display: inline-block;
+  background: #0070ba;
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 0.5em;
+}
+
+.paypal-button:hover {
+  background: #003087;
+}
